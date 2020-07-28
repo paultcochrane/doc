@@ -37,4 +37,4 @@ script:
 
 matrix:
     include:
-        - env: BUILDENV=docker
+        - env: BUILDENV=whateverable
