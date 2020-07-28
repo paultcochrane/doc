@@ -17,6 +17,6 @@ case "${BUILDENV}" in
       P6_DOC_TEST_VERBOSE=1 make test
       make clean-build
       make gen-pod6-source
-      perl6 htmlify.p6 --no-highlight --disambiguation=False
+      raku htmlify.p6 --no-highlight --disambiguation=False
     ;;
 esac
